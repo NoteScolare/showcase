@@ -2,26 +2,26 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import ContactInfo from '../components/Contact/ContactInfo';
-import ContactForm from '../components/Contact/ContactForm';
+import ContactFormStyleTwo from '../components/Contact/ContactFormStyleTwo';
 import Footer from '../components/Layouts/Footer';
 
-class Contact extends Component {
+class Contact2 extends Component {
     render() {
         return (
             <React.Fragment>
                 <Navbar />
                 <PageBanner 
-                    pageTitle="Contact Style One" 
+                    pageTitle="Contact"
                     homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Contact Style One" 
+                    homePageText="Home"
+                    activePageText="Contact"
                 /> 
                 <ContactInfo />
-                <ContactForm />
+                <ContactFormStyleTwo />
                 <Footer />
             </React.Fragment>
         );
     }
 }
 
-export default Contact;
+export default Contact2;
