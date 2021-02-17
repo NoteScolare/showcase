@@ -11,10 +11,10 @@ class Pricing extends Component {
             <React.Fragment>
                 <Navbar />
                 <PageBanner 
-                    pageTitle="Pricing" 
+                    pageTitle="Preturi"
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Pricing" 
+                    activePageText="Preturi"
                 /> 
                 <PricingStyleOne />
                 <div className="bg-fafafa">

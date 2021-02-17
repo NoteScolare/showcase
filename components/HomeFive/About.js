@@ -9,15 +9,15 @@ class About extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-img">
-                                <img src="/images/about-img-three.png" alt="Image" />
+                                <img src="/images/home-two/main-img2.png" alt="Image" />
                             </div>
                         </div>
 
                         <div className="col-lg-6">
                             <div className="about-content">
                                 <span>Despre Noi</span>
-                                <h2>Am creat NoteScolare.ro cu ideea de a oferi servicii de cea mai buna calitate Elevilor, Parntilor, Profesorilor si Conducerii Scolii</h2>
-                                <p>Cateva dintre motivele aparitiei aceste platforme sunt:</p>
+                                <h2>Am creat NoteScolare.ro cu ideea de a oferi servicii de cea mai buna calitate Elevilor, Parntilor, Profesorilor si Membrilor din Conducere</h2>
+                                <p>Cateva dintre motivele aparitiei acestei platforme sunt:</p>
 
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6">
@@ -55,11 +55,7 @@ class About extends Component {
                                     </div>
                                 </div>
 
-                                <Link href="/about-1">
-                                    <a className="default-btn">
-                                        Afla mai multe
-                                    </a>
-                                </Link>
+
                             </div>
                         </div>
                     </div>

@@ -16,12 +16,12 @@ class WhyChooseUs extends Component {
                             <div className="choose-content">
                                 <ul>
                                     <li>
-                                        <span>01 <i className="flaticon-technical-support"></i></span>
+                                        <span>01 <i className="flaticon-shield"></i></span>
                                         <h3>Securitate Avansata</h3>
                                         <p>Datele dumneavostra sunt in siguranta, investim in continuu in securitatea platformei</p>
                                     </li>
                                     <li className="ml">
-                                        <span>02 <i className="flaticon-shield"></i></span>
+                                        <span>02 <i className="flaticon-support"></i></span>
                                         <h3>Suport Tehnic</h3>
                                         <p>Suport Tehnic 24/7, suntem deschisi la propunerile pentru a adauga noi functii platformei</p>
                                     </li>
@@ -44,7 +44,7 @@ class WhyChooseUs extends Component {
                                     </li>
 
                                     <li className="ml">
-                                        <span>05 <i className="flaticon-shield"></i></span>
+                                        <span>05 <i className="flaticon-support"></i></span>
                                         <h3>Tehnologie Avansata</h3>
                                         <p>Platforma construita folosind cele mai avansate tehnologii de Web Development</p>
                                     </li>

@@ -17,8 +17,8 @@ const options = {
     animateOut: "slideOutDown",
     animateIn: "slideInDown",
     navText: [
-        "<i class='bx bx-chevron-left'></i>",
-        "<i class='bx bx-chevron-right'></i>",
+        // "<i class='bx bx-chevron-left'></i>",
+        // "<i class='bx bx-chevron-right'></i>",
     ],
 }
 
@@ -50,13 +50,13 @@ class MainBanner extends Component {
                                         <p>Securitatea datelor dumneavostra este unul dintre cele mai importante lucruri pentru echipa noastra</p>
                                         
                                         <div className="slider-btn">
-                                            <Link href="/services">
+                                            <Link href="#serv">
                                                 <a className="default-btn active">
                                                     Serviciile Noastre
                                                 </a>
                                             </Link>
 
-                                            <Link href="/contact-2">
+                                            <Link href="/contact">
                                                 <a className="default-btn white">
                                                     Contactati-ne
                                                 </a>
@@ -76,43 +76,14 @@ class MainBanner extends Component {
                                         <span>Servicii digitale pentru invatamant</span>
                                         <h1>Servicii premium pentru Gestiune si Management Scolar</h1>
                                         <p>Ne consideram cei mai buni in domeniul in care activam, lucru care ne obliga sa va oferim cele mai bune servicii.</p>
-
                                         <div className="slider-btn">
-                                            <Link href="/services">
+                                            <Link href="#serv">
                                                 <a className="default-btn active">
                                                     Serviciile Noastre
                                                 </a>
                                             </Link>
 
-                                            <Link href="/contact-2">
-                                                <a className="default-btn white">
-                                                    Contactati-ne
-                                                </a>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="arduix-slider-item item-bg3">
-                        <div className="d-table">
-                            <div className="d-table-cell">
-                                <div className="container">
-                                    <div className="arduix-slider-text overflow-hidden three">
-                                        <span>Servicii digitale pentru invatamant</span>
-                                        <h1>Accelerati lucrurile !</h1>
-                                        <p>Automatizati-va institutia scolara pentru a scuti mult timp pretios!</p>
-
-                                        <div className="slider-btn">
-                                            <Link href="/services">
-                                                <a className="default-btn active">
-                                                    Serviciile Noastre
-                                                </a>
-                                            </Link>
-
-                                            <Link href="/contact-2">
+                                            <Link href="/contact">
                                                 <a className="default-btn white">
                                                     Contactati-ne
                                                 </a>

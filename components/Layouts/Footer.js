@@ -112,89 +112,43 @@ class Footer extends Component {
                             {/*        </ul>*/}
                             {/*    </div>*/}
                             {/*</div>*/}
-
-                            {/*<div className="col-lg-3 col-md-6">*/}
-                            {/*    <div className="single-widget">*/}
-                            {/*        <h3>Important Links</h3>*/}
-
-                            {/*        <ul>*/}
-                            {/*            <li>*/}
-                            {/*                <Link href="/#">*/}
-                            {/*                    <a>*/}
-                            {/*                        <i className="right-icon bx bx-chevrons-right"></i>*/}
-                            {/*                        Search Engine*/}
-                            {/*                    </a>*/}
-                            {/*                </Link>*/}
-                            {/*            </li>*/}
-                            {/*            <li>*/}
-                            {/*                <Link href="/#">*/}
-                            {/*                    <a>*/}
-                            {/*                        <i className="right-icon bx bx-chevrons-right"></i>*/}
-                            {/*                        Online Support*/}
-                            {/*                    </a>*/}
-                            {/*                </Link>*/}
-                            {/*            </li>*/}
-                            {/*            <li>*/}
-                            {/*                <Link href="/#">*/}
-                            {/*                    <a>*/}
-                            {/*                        <i className="right-icon bx bx-chevrons-right"></i>*/}
-                            {/*                        Development*/}
-                            {/*                    </a>*/}
-                            {/*                </Link>*/}
-                            {/*            </li>*/}
-                            {/*            <li>*/}
-                            {/*                <Link href="/#">*/}
-                            {/*                    <a>*/}
-                            {/*                        <i className="right-icon bx bx-chevrons-right"></i>*/}
-                            {/*                        Pay  Per  Click*/}
-                            {/*                    </a>*/}
-                            {/*                </Link>*/}
-                            {/*            </li>*/}
-                            {/*            <li>*/}
-                            {/*                <Link href="/contact">*/}
-                            {/*                    <a>*/}
-                            {/*                        <i className="right-icon bx bx-chevrons-right"></i>*/}
-                            {/*                        Support*/}
-                            {/*                    </a>*/}
-                            {/*                </Link>*/}
-                            {/*            </li>*/}
-                            {/*            <li>*/}
-                            {/*                <Link href="/#">*/}
-                            {/*                    <a>*/}
-                            {/*                        <i className="right-icon bx bx-chevrons-right"></i>*/}
-                            {/*                        Application*/}
-                            {/*                    </a>*/}
-                            {/*                </Link>*/}
-                            {/*            </li>*/}
-                            {/*        </ul>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
-
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
-                                    <h3>Informatii</h3>
-
+                                    <h3>Telefon</h3>
                                     <ul className="information">
                                         <li className="address">
                                             <i className="flaticon-call"></i>
-                                            <span>Telefon</span>
-                                            +882-569-756
-                                        </li>
-
-                                        <li className="address">
-                                            <i className="flaticon-envelope"></i>
-                                            <span>Email</span>
-                                            hello@jumpx.com
-                                        </li>
-
-                                        <li className="address">
-                                            <i className="flaticon-maps-and-flags"></i>
-                                            <span>Addresa</span>
-                                            123, Western Road, Melbourne Australia
+                                            <span>0767631786</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="single-widget">
+                                    <h3>E-mail</h3>
+                                    <ul className="information">
+                                        <li className="address">
+                                            <i className="flaticon-envelope"></i>
+                                            <span>contact@notescolare.ro</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="single-widget">
+                                    <h3>Trimite-ne un mesaj</h3>
+                                    <ul className="information">
+                                            <div className="text-center">
+                                                <Link href="/contact">
+                                                    <a className="default-btn">contact</a>
+                                                </Link>
+                                            </div>
+                                    </ul>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
 
@@ -210,7 +164,7 @@ class Footer extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-4">
                                 <div className="copy-right">
-                                    <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                                    <p>Copyright &copy; {currentYear} WAYMAKER VID. All Rights Reserved</p>
                                 </div>
                             </div>
 
@@ -234,7 +188,7 @@ class Footer extends Component {
                             <div className="col-lg-3">
                                 <div className="designed">
                                     <p>
-                                        Designed By <i className='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                                        Designed By <i className='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">WAYMAKER VID SRL</a>
                                     </p>
                                 </div>
                             </div>

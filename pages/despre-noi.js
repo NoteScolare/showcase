@@ -8,7 +8,7 @@ import TeamTwo from '../components/Common/TeamTwo';
 import Partner from '../components/Common/Partner';
 import Footer from '../components/Layouts/Footer';
 
-class About1 extends Component {
+class DespreNoi extends Component {
     render() {
         return (
             <React.Fragment>
@@ -32,4 +32,4 @@ class About1 extends Component {
     }
 }
 
-export default About1;
+export default DespreNoi;

@@ -24,6 +24,7 @@ class WhatWeOffer extends Component {
             <section className="industries-area pb-100">
 			    <div className="container">
                     <div className="section-title">
+                        <br/>
                         <span>Ce va putem oferii</span>
                         <h2>Avantajele NoteScolare.ro</h2>
                         <p>Dorim sa oferim servicii de cea mai buna calitate, astfel incat sa multumim fiecare client</p>
@@ -69,7 +70,7 @@ class WhatWeOffer extends Component {
                                         onClick={(e) => this.openTabSection(e, 'tab4')}
                                     >
                                         <span>
-                                            <i className="flaticon-automation"></i>
+                                            <i className="flaticon-machine-learning"></i>
                                             <h3>Avantaje Secretariat si Conducere</h3>
                                             <p>All kind of industry</p>
                                         </span>
@@ -129,12 +130,6 @@ class WhatWeOffer extends Component {
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                
-                                                    <div className="text-center">
-                                                        <Link href="/index-5/#">
-                                                            <a className="default-btn">Discover More</a>
-                                                        </Link>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -183,12 +178,6 @@ class WhatWeOffer extends Component {
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                    </div>
-                                                    
-                                                    <div className="text-center">
-                                                        <Link href="/index-5/#">
-                                                            <a className="default-btn">Discover More</a>
-                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -250,12 +239,6 @@ class WhatWeOffer extends Component {
                                                             </ul>
                                                         </div>
                                                     </div>
-
-                                                    <div className="text-center">
-                                                        <Link href="/index-5/#">
-                                                            <a className="default-btn">Discover More</a>
-                                                        </Link>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -303,12 +286,6 @@ class WhatWeOffer extends Component {
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                    </div>
-
-                                                    <div className="text-center">
-                                                        <Link href="/index-5/#">
-                                                            <a className="default-btn">Discover More</a>
-                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>

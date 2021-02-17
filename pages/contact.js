@@ -5,7 +5,7 @@ import ContactInfo from '../components/Contact/ContactInfo';
 import ContactFormStyleTwo from '../components/Contact/ContactFormStyleTwo';
 import Footer from '../components/Layouts/Footer';
 
-class Contact2 extends Component {
+class Contact extends Component {
     render() {
         return (
             <React.Fragment>
@@ -24,4 +24,4 @@ class Contact2 extends Component {
     }
 }
 
-export default Contact2;
+export default Contact;

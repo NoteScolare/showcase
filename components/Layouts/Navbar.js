@@ -69,7 +69,7 @@ class Navbar extends Component {
                                         {/*    </a>*/}
                                         {/*</Link>*/}
                                         <Link href="/" activeClassName="active">
-                                            <a className="nav-link">Home</a>
+                                            <a className="nav-link">Acasa</a>
                                         </Link>
 
                                         {/*<ul className="dropdown-menu">*/}
@@ -87,7 +87,7 @@ class Navbar extends Component {
                                         {/*        About <i className='bx bx-chevron-down'></i>*/}
                                         {/*    </a>*/}
                                         {/*</Link>*/}
-                                        <Link href="../about-1" activeClassName="active">
+                                        <Link href="../despre-noi" activeClassName="active">
                                             <a className="nav-link">Despre Noi</a>
                                         </Link>
 
@@ -104,6 +104,11 @@ class Navbar extends Component {
                                         {/*        </Link>*/}
                                         {/*    </li>*/}
                                         {/*</ul>*/}
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link href="../pricing" activeClassName="active">
+                                            <a className="nav-link">Preturi</a>
+                                        </Link>
                                     </li>
 
                                     {/*<li className="nav-item">*/}
@@ -244,7 +249,7 @@ class Navbar extends Component {
                                         {/*        News <i className='bx bx-chevron-down'></i>*/}
                                         {/*    </a>*/}
                                         {/*</Link>*/}
-                                        <Link href="/news-grid" activeClassName="active">
+                                        <Link href="/noutati" activeClassName="active">
                                             <a className="nav-link">Noutati</a>
                                         </Link>
 
@@ -275,7 +280,7 @@ class Navbar extends Component {
                                         {/*        Contact <i className='bx bx-chevron-down'></i>*/}
                                         {/*    </a>*/}
                                         {/*</Link>*/}
-                                        <Link href="/contact-2" activeClassName="active">
+                                        <Link href="/contact" activeClassName="active">
                                             <a className="nav-link">Contact</a>
                                         </Link>
 

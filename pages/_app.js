@@ -35,7 +35,7 @@ export default class MyApp extends App {
             <React.Fragment>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <title>Jumpx - React Next AI & IT Startup Template</title>
+                    <title>NoteScolare.ro</title>
                 </Head>
 
                 <Component {...pageProps} />

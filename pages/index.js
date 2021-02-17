@@ -21,10 +21,10 @@ class Index extends Component {
                 <MainBanner />
                 {/*<PartnerSlider />*/}
                 <About />
-                <WhyChooseUs />
                 <Services />
-                {/*<MakeYourBusiness />*/}
                 <WhatWeOffer />
+                <WhyChooseUs />
+                {/*<MakeYourBusiness />*/}
                 {/*<CaseStudies />*/}
                 {/*<Testimonials />*/}
                 <Faq />

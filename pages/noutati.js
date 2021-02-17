@@ -4,7 +4,7 @@ import PageBanner from '../components/Common/PageBanner';
 import NewsGridCard from '../components/News/NewsGridCard';
 import Footer from '../components/Layouts/Footer';
 
-class NewsGrid extends Component {
+class Noutati extends Component {
     render() {
         return (
             <React.Fragment>
@@ -22,4 +22,4 @@ class NewsGrid extends Component {
     }
 }
 
-export default NewsGrid;
+export default Noutati;

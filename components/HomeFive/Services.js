@@ -4,7 +4,7 @@ import Link from 'next/link';
 class Services extends Component {
     render() {
         return (
-            <section className="offer-area pt-100 pb-70">
+            <section className="offer-area pt-100 pb-70" id="serv">
 			    <div className="container">
                     <div className="section-title">
                         <span>Servicii</span>
@@ -15,7 +15,7 @@ class Services extends Component {
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-offer">
-                                <i className="flaticon-chip"></i>
+                                <i className="flaticon-blockchain"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Mesagerie Online</a>
@@ -27,7 +27,7 @@ class Services extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-offer">
-                                <i className="flaticon-vr"></i>
+                                <i className="flaticon-choice"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Rapoarte scolare</a>
@@ -39,7 +39,7 @@ class Services extends Component {
 
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-offer">
-                                <i className="flaticon-blockchain"></i>
+                                <i className="flaticon-chip"></i>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Imbunatatire constanta</a>

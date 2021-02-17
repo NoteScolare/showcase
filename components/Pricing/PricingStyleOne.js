@@ -24,27 +24,32 @@ class PricingStyleOne extends Component {
             <section className="pricing-area pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <span>What We Offer</span>
-                        <h2>Our Pricing Plan For You</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum suspendisse.</p>
+                        <span>Ofertele Noastre</span>
+                        <h2>Preturile Noastre</h2>
+                        <p>Avem O Gama Variata De Pachete Disponibile</p>
                     </div>
 
                     <div className="tab quote-list-tab">
                         {/* Tabs */}
-                        <ul className="tabs">
-                            <li
-                                className="current"
-                                onClick={(e) => this.openTabSection(e, 'tab1')}
-                            >
-                                <span>Monthly</span>
-                            </li>
+                        {/*<ul className="tabs">*/}
+                        {/*    <li*/}
+                        {/*        className="current"*/}
+                        {/*        onClick={(e) => this.openTabSection(e, 'tab1')}*/}
+                        {/*    >*/}
+                        {/*        <span>Lunar</span>*/}
+                        {/*    </li>*/}
+                        {/*    <li*/}
+                        {/*        onClick={(e) => this.openTabSection(e, 'tab2')}*/}
+                        {/*    >*/}
+                        {/*        <span>Semestrial</span>*/}
+                        {/*    </li>*/}
 
-                            <li
-                                onClick={(e) => this.openTabSection(e, 'tab2')}
-                            >
-                                <span>Yearly</span>
-                            </li>
-                        </ul>
+                        {/*    <li*/}
+                        {/*        onClick={(e) => this.openTabSection(e, 'tab3')}*/}
+                        {/*    >*/}
+                        {/*        <span>Anual</span>*/}
+                        {/*    </li>*/}
+                        {/*</ul>*/}
 
                         <div className="tab_content">
                             <div id="tab1" className="tabs_item">
@@ -52,15 +57,15 @@ class PricingStyleOne extends Component {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
-                                                <h3>Basic</h3>
+                                                <h3>Lunar</h3>
                                                 <p>Build A Website</p>
                                             </div>
-                                            <span>$29<sub>/m</sub></span>
+                                            <span>10ron<sub>/luna</sub></span>
 
                                             <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
+                                                    Integrare Completa
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
@@ -99,10 +104,10 @@ class PricingStyleOne extends Component {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
-                                                <h3>Standard</h3>
+                                                <h3>Semestrial</h3>
                                                 <p>Build A Website</p>
                                             </div>
-                                            <span>$59<sub>/m</sub></span>
+                                            <span>45lei<sub>/sem</sub></span>
 
                                             <ul>
                                                 <li>
@@ -148,10 +153,10 @@ class PricingStyleOne extends Component {
                                     <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
-                                                <h3>Premium</h3>
+                                                <h3>Anual</h3>
                                                 <p>Build A Website</p>
                                             </div>
-                                            <span>$79 <sub>/m</sub></span>
+                                            <span>70lei<sub>/an</sub></span>
 
                                             <ul>
                                                 <li>
@@ -193,153 +198,299 @@ class PricingStyleOne extends Component {
                                     </div>
                                 </div>
                             </div>
- 
-                            <div id="tab2" className="tabs_item">
-                                <div className="row">
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="single-pricing">
-                                            <div className="pricing-top-heading">
-                                                <h3>Basic</h3>
-                                                <p>Build A Website</p>
-                                            </div>
-                                            <span>$39<sub>/y</sub></span>
+                            {/*<div id="tab2" className="tabs_item">*/}
+                            {/*    <div className="row">*/}
+                            {/*        <div className="col-lg-4 col-md-6">*/}
+                            {/*            <div className="single-pricing">*/}
+                            {/*                <div className="pricing-top-heading">*/}
+                            {/*                    <h3>Basic</h3>*/}
+                            {/*                    <p>Build A Website</p>*/}
+                            {/*                </div>*/}
+                            {/*                <span>45ron<sub>/sem</sub></span>*/}
 
-                                            <ul>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Customer Service
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Up to 1000 Subscribers
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Unlimited Broadcasts
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Landing Pages & Web Widgets
-                                                </li>
-                                            </ul>
+                            {/*                <ul>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Drag & Drop Builder*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Lead Generation & Sales*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Boot & Digital Assistants*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Customer Service*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Up to 1000 Subscribers*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Unlimited Broadcasts*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Landing Pages & Web Widgets*/}
+                            {/*                    </li>*/}
+                            {/*                </ul>*/}
 
-                                            <Link href="/contact">
-                                                <a className="default-btn">
-                                                    Get Started
-                                                </a>
-                                            </Link>
-                                        </div>
-                                    </div>
+                            {/*                <Link href="/contact">*/}
+                            {/*                    <a className="default-btn">*/}
+                            {/*                        Get Started*/}
+                            {/*                    </a>*/}
+                            {/*                </Link>*/}
+                            {/*            </div>*/}
+                            {/*        </div>*/}
 
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="single-pricing">
-                                            <div className="pricing-top-heading">
-                                                <h3>Standard</h3>
-                                                <p>Build A Website</p>
-                                            </div>
-                                            <span>$79<sub>/y</sub></span>
+                            {/*        <div className="col-lg-4 col-md-6">*/}
+                            {/*            <div className="single-pricing">*/}
+                            {/*                <div className="pricing-top-heading">*/}
+                            {/*                    <h3>Standard</h3>*/}
+                            {/*                    <p>Build A Website</p>*/}
+                            {/*                </div>*/}
+                            {/*                <span>45lei<sub>/sem</sub></span>*/}
 
-                                            <ul>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Customer Service
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Up to 1000 Subscribers
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Unlimited Broadcasts
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Landing Pages & Web Widgets
-                                                </li>
-                                            </ul>
+                            {/*                <ul>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Drag & Drop Builder*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Lead Generation & Sales*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Boot & Digital Assistants*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Customer Service*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Up to 1000 Subscribers*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Unlimited Broadcasts*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Landing Pages & Web Widgets*/}
+                            {/*                    </li>*/}
+                            {/*                </ul>*/}
 
-                                            <Link href="/contact">
-                                                <a className="default-btn">
-                                                    Get Started
-                                                </a>
-                                            </Link>
+                            {/*                <Link href="/contact">*/}
+                            {/*                    <a className="default-btn">*/}
+                            {/*                        Get Started*/}
+                            {/*                    </a>*/}
+                            {/*                </Link>*/}
 
-                                            <strong className="popular">Popular</strong>
-                                        </div>
-                                    </div>
+                            {/*                <strong className="popular">Popular</strong>*/}
+                            {/*            </div>*/}
+                            {/*        </div>*/}
 
-                                    <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                                        <div className="single-pricing">
-                                            <div className="pricing-top-heading">
-                                                <h3>Premium</h3>
-                                                <p>Build A Website</p>
-                                            </div>
-                                            <span>$99<sub>/y</sub></span>
+                            {/*        <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">*/}
+                            {/*            <div className="single-pricing">*/}
+                            {/*                <div className="pricing-top-heading">*/}
+                            {/*                    <h3>Premium</h3>*/}
+                            {/*                    <p>Build A Website</p>*/}
+                            {/*                </div>*/}
+                            {/*                <span>$79 <sub>/m</sub></span>*/}
 
-                                            <ul>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Customer Service
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Up to 1000 Subscribers
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Unlimited Broadcasts
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Landing Pages & Web Widgets
-                                                </li>
-                                            </ul>
+                            {/*                <ul>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Drag & Drop Builder*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Lead Generation & Sales*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Boot & Digital Assistants*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Customer Service*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Up to 1000 Subscribers*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Unlimited Broadcasts*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Landing Pages & Web Widgets*/}
+                            {/*                    </li>*/}
+                            {/*                </ul>*/}
 
-                                            <Link href="/contact">
-                                                <a className="default-btn">
-                                                    Get Started
-                                                </a>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            {/*                <Link href="/contact">*/}
+                            {/*                    <a className="default-btn">*/}
+                            {/*                        Get Started*/}
+                            {/*                    </a>*/}
+                            {/*                </Link>*/}
+                            {/*            </div>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
+
+                            {/*<div id="tab3" className="tabs_item">*/}
+                            {/*    <div className="row">*/}
+                            {/*        <div className="col-lg-4 col-md-6">*/}
+                            {/*            <div className="single-pricing">*/}
+                            {/*                <div className="pricing-top-heading">*/}
+                            {/*                    <h3>Basic</h3>*/}
+                            {/*                    <p>Build A Website</p>*/}
+                            {/*                </div>*/}
+                            {/*                <span>$39<sub>/y</sub></span>*/}
+
+                            {/*                <ul>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Drag & Drop Builder*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Lead Generation & Sales*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Boot & Digital Assistants*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Customer Service*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Up to 1000 Subscribers*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Unlimited Broadcasts*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Landing Pages & Web Widgets*/}
+                            {/*                    </li>*/}
+                            {/*                </ul>*/}
+
+                            {/*                <Link href="/contact">*/}
+                            {/*                    <a className="default-btn">*/}
+                            {/*                        Get Started*/}
+                            {/*                    </a>*/}
+                            {/*                </Link>*/}
+                            {/*            </div>*/}
+                            {/*        </div>*/}
+
+                            {/*        <div className="col-lg-4 col-md-6">*/}
+                            {/*            <div className="single-pricing">*/}
+                            {/*                <div className="pricing-top-heading">*/}
+                            {/*                    <h3>Standard</h3>*/}
+                            {/*                    <p>Build A Website</p>*/}
+                            {/*                </div>*/}
+                            {/*                <span>$79<sub>/y</sub></span>*/}
+
+                            {/*                <ul>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Drag & Drop Builder*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Lead Generation & Sales*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Boot & Digital Assistants*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Customer Service*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Up to 1000 Subscribers*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Unlimited Broadcasts*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-x'></i>*/}
+                            {/*                        Landing Pages & Web Widgets*/}
+                            {/*                    </li>*/}
+                            {/*                </ul>*/}
+
+                            {/*                <Link href="/contact">*/}
+                            {/*                    <a className="default-btn">*/}
+                            {/*                        Get Started*/}
+                            {/*                    </a>*/}
+                            {/*                </Link>*/}
+
+                            {/*                <strong className="popular">Popular</strong>*/}
+                            {/*            </div>*/}
+                            {/*        </div>*/}
+
+                            {/*        <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">*/}
+                            {/*            <div className="single-pricing">*/}
+                            {/*                <div className="pricing-top-heading">*/}
+                            {/*                    <h3>Premium</h3>*/}
+                            {/*                    <p>Build A Website</p>*/}
+                            {/*                </div>*/}
+                            {/*                <span>$99<sub>/y</sub></span>*/}
+
+                            {/*                <ul>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Drag & Drop Builder*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Lead Generation & Sales*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Boot & Digital Assistants*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Customer Service*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Up to 1000 Subscribers*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Unlimited Broadcasts*/}
+                            {/*                    </li>*/}
+                            {/*                    <li>*/}
+                            {/*                        <i className='bx bx-check'></i>*/}
+                            {/*                        Landing Pages & Web Widgets*/}
+                            {/*                    </li>*/}
+                            {/*                </ul>*/}
+
+                            {/*                <Link href="/contact">*/}
+                            {/*                    <a className="default-btn">*/}
+                            {/*                        Get Started*/}
+                            {/*                    </a>*/}
+                            {/*                </Link>*/}
+                            {/*            </div>*/}
+                            {/*/!*        </div>*!/*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>
