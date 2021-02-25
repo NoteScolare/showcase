@@ -30,7 +30,7 @@ class Faq extends Component {
 
                                         <AccordionItemPanel>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                                Este foarte sumplu. Un sistem de gestiune a situatiei scolare realizat foarte bine o sa va scuteasca timp si o sa va usureze considerabil munca. Pe langa asta, le ofera parintilor posibilitatea de a fi informati constant in legatura cu situatia elevilor. Iar cel mai important lucru este cresterea rezultatealor elevilor si scaderea ratei absentelor.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
@@ -44,7 +44,7 @@ class Faq extends Component {
 
                                         <AccordionItemPanel>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                                NoteScolare.ro se adreseaza tuturor tipurilor de invatamant. Invatamant primar, gimnazial, profesional, liceal si universitar.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
@@ -57,7 +57,7 @@ class Faq extends Component {
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                                NoteScolare.ro a fost creat pentru a oferi cele mai bune servicii, folosind cele mai eficiente tehnologii, avand o echipa formata din oameni seriosi si muncitor, care isi fac treaba cu placere.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
@@ -70,7 +70,7 @@ class Faq extends Component {
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                                Implementarea platformei NoteScolare.ro se face in maxim 2 saptamani de la semnarea contractului, in functie de capacitatea unitatii de invatamant.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
@@ -83,7 +83,7 @@ class Faq extends Component {
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                                 Buna intrebare! Ne puteti contacta la numerele de telefon 0767631786, la adresa de mail contact@notescolare.ro sau accesand sectiunea Contact. Noi o sa va contactam inapoi si o ssa va oferim toate informatiile necesare in cel mai scurt timp.
                                             </p>
                                         </AccordionItemPanel>
                                     </AccordionItem>

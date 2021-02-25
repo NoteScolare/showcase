@@ -39,12 +39,12 @@ class WhyChooseUs extends Component {
                                 <ul>
                                     <li>
                                         <span>04 <i className="flaticon-technical-support"></i></span>
-                                        <h3>Free Try </h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <h3>Dezvoltare Continua</h3>
+                                        <p>Dorim sa dezvoltam platforma din ce in ce mai mult si sa adaugam noi functii care sa va usureze munca</p>
                                     </li>
 
                                     <li className="ml">
-                                        <span>05 <i className="flaticon-support"></i></span>
+                                        <span>05 <i className="flaticon-technical-support"></i></span>
                                         <h3>Tehnologie Avansata</h3>
                                         <p>Platforma construita folosind cele mai avansate tehnologii de Web Development</p>
                                     </li>

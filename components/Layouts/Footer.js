@@ -28,27 +28,6 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/#">
                                                 <a target="_blank">
-                                                    <i className="bx bxl-twitter"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#">
-                                                <a target="_blank">
-                                                    <i className="bx bxl-pinterest-alt"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#">
-                                                <a target="_blank">
-                                                    <i className="bx bxl-linkedin"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/#">
-                                                <a target="_blank">
                                                     <i className="bx bxl-youtube"></i>
                                                 </a>
                                             </Link>

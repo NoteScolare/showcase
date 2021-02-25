@@ -12,14 +12,21 @@
     "author": "EnvyTheme.com",
     "license": "ISC",
     "dependencies": {
+        "@types/react": "^17.0.2",
+        "@types/react-dom": "^17.0.1",
+        "core-util-is": "^1.0.2",
         "next": "^10.0.5",
-        "react": "^16.14.0",
+        "next-compose-plugins": "^2.2.1",
+        "next-transpile-modules": "^6.3.0",
+        "react": "^17.0.1",
         "react-accessible-accordion": "^3.3.3",
         "react-dom": "^16.14.0",
         "react-modal-video": "^1.2.6",
         "react-owl-carousel3": "^2.2.5",
         "react-visibility-sensor": "^5.1.1",
         "react-wow": "^1.0.0",
-        "sass": "^1.32.2"
-    }
+        "sass": "^1.32.2",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "client": "npm start --prefix client"
 }
